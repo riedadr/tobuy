@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box; /* width und height unabhängig von padding und margin */
+}
+
+body.light {
+  --bg: 248, 250, 252;
+  --fg: 203, 213, 225;
+  --text: 0, 0, 0;
+}
+
+body {
+	--bg: 29, 33, 47;
+	--fg: 51, 65, 85;
+	--text: 255, 255, 255;
+
+	--primary: 0, 141, 201;
+	--success: 16, 185, 129;
+	--danger: 244, 63, 94;
+
+	color: rgb(var(--text));
+  background-color: rgb(var(--bg));
+  
+  /* aus Vorlage: */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.text-primary {
+  color: rgb(var(--primary));
+}

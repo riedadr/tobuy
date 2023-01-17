@@ -1,0 +1,68 @@
+header {
+	height: 5rem;
+	padding: 0.5rem;
+}
+
+header nav {
+	height: 4rem;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	background-color: rgb(var(--fg));
+	box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+		0 8px 10px -6px rgb(0 0 0 / 0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav button {
+	background-color: transparent;
+	border: none;
+	color: rgb(var(--text));
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		padding-left: 0.5rem;
+        padding-right: 0.5rem;
+	}
+}
+
+footer {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+	padding: 1rem;
+	background-color: rgb(var(--fg));
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+		0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer a {
+    color: #64748b;
+    text-decoration: none;
+
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
