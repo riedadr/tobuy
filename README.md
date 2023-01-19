@@ -11,8 +11,13 @@ einfache Einkaufsliste mit React basierend auf dem Default-Template orientiert a
 git clone https://github.com/riedadr/tobuy.git
 ```
 
+-  in Verzeichnis wechseln und Pakete installieren
 ```bash
 cd tobuy
+```
+
+```bash
+npm install
 ```
 
 - Entwicklungsumgebung starten
