@@ -2,6 +2,9 @@
 
 einfache Einkaufsliste mit React basierend auf dem Default-Template orientiert am Tutorial von Abhishek Patil.
 
+Die Eingabedaten werden jeweils in einem eigenen State gespeichert.
+
+
 
 # How To
 

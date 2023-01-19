@@ -16,6 +16,7 @@ body {
 	--primary: 0, 141, 201;
 	--success: 16, 185, 129;
 	--danger: 244, 63, 94;
+	--warning: 245, 158, 11;
 
 	color: rgb(var(--text));
   background-color: rgb(var(--bg));
@@ -33,4 +34,7 @@ button:hover {
 
 .text-primary {
   color: rgb(var(--primary));
+}
+.text-warning {
+  color: rgb(var(--warning));
 }

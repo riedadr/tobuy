@@ -27,16 +27,31 @@ export default function Layout(props) {
 						to<span className="text-primary">Buy</span>
 					</h1>
 					<button title="Theme wechseln" onClick={toggleTheme}>
-						<img src={lightTheme ? moonIcon : sunIcon} alt="Theme wechseln" />
+						<img
+							src={lightTheme ? moonIcon : sunIcon}
+							alt="Theme wechseln"
+						/>
 					</button>
 				</nav>
 			</header>
 			<main>{children}</main>
 			<footer>
-				<a href="https://github.com/riedadr/tobuy" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://github.com/riedadr/tobuy"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={githubIcon} alt="GitHub" />
 				</a>
-				<a href="mailto:adrian.riedel@hof-university.de">Adrian Riedel</a>
+				<a
+					href="https://tobuyadv.webdev.cit116.xyz"
+				>
+					to<span className="text-primary">Buy</span>
+					<span className="text-warning">Advanced</span>
+				</a>
+				<a href="mailto:adrian.riedel@hof-university.de">
+					Adrian Riedel
+				</a>
 			</footer>
 		</>
 	);
