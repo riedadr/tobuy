@@ -50,7 +50,7 @@ export default function Layout(props) {
 					<span className="text-warning">Advanced</span>
 				</a>
 				<a href="mailto:adrian.riedel@hof-university.de">
-					Adrian Riedel
+					AdRi
 				</a>
 			</footer>
 		</>
